@@ -14,7 +14,8 @@ const svg = d3.select("body")
   .attr("height", h);
 
 d3.csv(penglings).then(data => { // Convert numeric columns from strings -> numbers
-  const dataset = data.map(d => ({
+    console.log("raw rows:", data.length, data[0]);
+    const dataset = data.map(d => ({
     species: d.species,
     flipper_length_mm: +d.flipper_length_mm,
     body_mass_g: +d.body_mass_g,
