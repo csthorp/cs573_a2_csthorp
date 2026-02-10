@@ -13,6 +13,8 @@ svg {
   border-color: #ccc;
   display: block;
   margin: 20px auto;
+  padding: 50px;
+  font-size: smaller;
 }
 
 h1, h2 {
