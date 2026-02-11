@@ -1,15 +1,16 @@
-# Description
+# Assignment 2
 
-For Assignment 2, I created visualizations with the "penglings" data set using ggplot (in R), d3 (in Javascript), altair (in Python), Excel, DataWrapper, Tableau, and Flourish.
-
-## ggplot
+## R & ggplot
 
 <img width="1641" height="1216" alt="penglings_ggplot" src="https://github.com/user-attachments/assets/a3ee0d11-457a-4398-b579-234952286764" />
 <br>
 <br>
-Using "ggplot" to make this plot was the default tool for me and I used the above plot as a reference when I made the other visualizations. I use R regularly and teach my students in introductory statistics how to use R, including how to make basic plots with the "ggplot2" library. Since I have years of experience using R, I found making this plot very easyand had existing code I could use as a template. One of the reasons I encourage my students to learn how to use "ggplot," rather than just use the default plotting functions in R (e.g., "plot" and "hist") is because I like the "ggplot" syntax being in one block of code, with the first line calling the data and laying out what variables within the data you are plotting, then "building" the plot with the corresponding lines. Once you learn the basics of "ggplot," it is easy to build on that knowledge and make more complex plots without significantly changing the base code.
+Using "ggplot" to make this plot was the default tool for me and I used the above plot as a reference when I made the other visualizations. I use R regularly and teach my students in introductory statistics how to use R, including how to make basic plots with the "ggplot2" library. Since I have years of experience using R, I found making this plot very easy and had existing code I could use as a template. One of the reasons I encourage my students to learn how to use "ggplot," rather than just use the default plotting functions in R (e.g., "plot" and "hist") is because I like the "ggplot" syntax being in one block of code, with the first line calling the data and laying out what variables within the data you are plotting, then "building" the plot with the corresponding lines. Once you learn the basics of "ggplot," it is easy to build on that knowledge and make more complex plots without significantly changing the base code.
+<br>
+<br>
+For this plot, I used the "geom_point()" layer and added features using "scale_()" layers for the color and size and "labs()" for the titles, axis labels, and legend labels.  
 
-## d3
+## d3 & JavaScript
 
 <img width="798" height="598" alt="penglings_d3" src="https://github.com/user-attachments/assets/85ab193a-1a71-447e-a29f-37a1153d6d7c" />
 <br>
@@ -19,7 +20,7 @@ This one was a doozy... To make such a basic plot using "d3" required much *much
 <br>
 Or did I not use "d3" as effectively as I could have?
 
-## altair
+## altair & Python
 
 <img width="969" height="613" alt="penglings_python_ss" src="https://github.com/user-attachments/assets/7b9afcc5-26d8-4a32-a056-71106da73adf" />
 <br>
@@ -56,4 +57,8 @@ This was my first time using "Flourish" and I found it fairly easy to use. I had
 
 ---
 
-# Technical Details
+# Technical Achievements
+
+---
+
+# Design Achievements
