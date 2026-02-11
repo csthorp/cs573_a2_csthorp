@@ -1,10 +1,11 @@
-# Assignment 2 Description
+# Description
 
 For Assignment 2, I created visualizations with the "penglings" data set using ggplot (in R), d3 (in Javascript), altair (in Python), Excel, DataWrapper, Tableau, and Flourish.
 
 ## ggplot
 
 <img width="1641" height="1216" alt="penglings_ggplot" src="https://github.com/user-attachments/assets/a3ee0d11-457a-4398-b579-234952286764" />
+
 
 Using "ggplot" to make this plot was the default tool for me and I used the above plot as a reference when I made the other visualizations. I use *R* regularly and teach my students in introductory statistics how to use *R*, including how to make basic plots with the "ggplot2" library. Since I have years of experience with using *R*, I found making this plot easy to do and had existing code I could use as a template for making this plot. One of the reasons I teach this library to my students, rather than just have them use the default plotting tools in R (e.g., "plot" and "hist") is because I like the logic of "ggplot" syntax, with the first line calling the data and laying out what variables within the data you are plotting, then "building" the plot with the corresponding lines.
 
