@@ -31,14 +31,14 @@ Like "ggplot," I like the syntax of the "chart" function using one block of code
 <img width="2800" height="1883" alt="penglings_excel" src="https://github.com/user-attachments/assets/6d405cf5-061b-437f-b9da-37aea7fd1f2a" />
 <br>
 <br>
-Excel was another tool that I found very easy to use due to years of experience. However, it does have limitations, like how I could not change the circle radii relative to "bill length." The size of the points could only be changed uniformly. Further, to distinguish point colors by "species," there is no option to "tell" the plot to color the points based on a categorical variable. Instead, you have to rearrange the data and create cells with "#N/A" for when a particular species was not related to the y-values for the highlighted x-values.
+Excel was another tool that I found very easy to use due to years of experience. However, it does have limitations, like how I could not change the circle radii relative to "bill length." The size of the points could only be changed uniformly. Further, to distinguish point colors by "species," there is no option to "tell" the plot to color the points based on a categorical variable. Instead, you have to rearrange the data and create cells with "#N/A" for when a particular species was not related to the y-values for the highlighted x-values. While Excel did create a nice-looking plot, I typically use Excel for its spreadsheet capabilities, such as keeping track of student grades or formulating data sets to share with my students, and will continue to use Excel for those purposes.
 
 ## DataWrapper
 
 <img width="622" height="583" alt="penglings_datawrapper_2" src="https://github.com/user-attachments/assets/29c6be77-2bbe-422f-9051-7b74f5aa02f2" />
 <br>
 <br>
-This was my first time using "DataWrapper" and I found it fairly easy to use. There were some limitations, such as the locations of the axis labels, and you were restricted to the options on the interface without the possibility of customization, but I appreciated how easy it was to "tell" the tool, for instance, that "bill length" was the size column. I liked how it had features to allow you to view the plot in "dark mode" and make changes the colors to provide access to those who are colorblind. However, since I am a huge fan of playing around with color palettes, I'm not likely to use this tool again. The colors could only be changed individually, instead of selecting a palette, like those available in "ggplot."
+This was my first time using "DataWrapper" and I found it fairly easy to use. There were some limitations, such as the locations of the axis labels, and you were restricted to the options on the interface without the possibility of customization, but I appreciated how easy it was to "tell" the tool, for instance, that "bill length" was the size column. I liked how it had features to allow you to view the plot in "dark mode" and make changes the colors to provide access to those who are colorblind. However, since I am a huge fan of playing around with color palettes, I'm not likely to use this tool again. The colors could only be changed individually, instead of selecting a palette, like those available in "ggplot." I do not think I will use this tool for future visualizations.
 
 ## Tableau
 
@@ -52,7 +52,7 @@ This was my first time using "Tableau," although I had heard of it prior to this
 <img width="1461" height="823" alt="penglings_flourish" src="https://github.com/user-attachments/assets/afdb7bee-0e5b-4fb0-8fad-448d797e805f" />
 <br>
 <br>
-This was my first time using "Flourish" and I found it fairly easy to use. I had similar thoughts on it as I did above with "DataWrapper." However, while it did allow changing the circle radii relative to "bill length," it did not have an option to add a legend nor did it allow me to change the variation in size. When looking at the plot, it is difficult to distinguish between the different-sized circles due to there not being a large enough range in size. Different sized radii, relative to one of the variables, is only useful if the plot is imbedded or shared properly, where you can then hover over individual points to see the values.
+This was my first time using "Flourish" and I found it fairly easy to use. I had similar thoughts on it as I did above with "DataWrapper." However, while it did allow changing the circle radii relative to "bill length," it did not have an option to add a legend nor did it allow me to change the variation in size. When looking at the plot, it is difficult to distinguish between the different-sized circles due to there not being a large enough range in size. Different sized radii, relative to one of the variables, is only useful if the plot is imbedded or shared properly, where you can then hover over individual points to see the values. I do not think I will use this tool for future visualizations.
 
 ---
 
