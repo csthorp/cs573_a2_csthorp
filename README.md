@@ -8,7 +8,7 @@
 Using "ggplot" to make this plot was the default tool for me and I used the above plot as a reference when I made the other visualizations. I use R regularly and teach my students in introductory statistics how to use R, including how to make basic plots with the "ggplot2" library. Since I have years of experience using R, I found making this plot very easy and had existing code I could use as a template. One of the reasons I encourage my students to learn how to use "ggplot," rather than just use the default plotting functions in R (e.g., "plot" and "hist") is because I like the "ggplot" syntax being in one block of code, with the first line calling the data and laying out what variables within the data you are plotting, then "building" the plot with the corresponding lines. Once you learn the basics of "ggplot," it is easy to build on that knowledge and make more complex plots without significantly changing the base code.
 <br>
 <br>
-For this plot, I used the "geom_point()" layer and added features using "scale_()" layers for the color and size and "labs()" for the titles, axis labels, and legend labels.  
+For this plot, in R Script, I used the "geom_point()" layer and added features using "scale_()" layers for the color and size and "labs()" for the titles, axis labels, and legend labels.  
 
 ## d3 & JavaScript
 
@@ -27,7 +27,7 @@ Or did I not use "d3" as effectively as I could have?
 <br>
 Like "ggplot," I like the syntax of the "chart" function using one block of code. Further, I have some experience using Python, so I found this tool moderately easy to use. I had not before used "altair," but my prior knowledge with helped with understanding the syntax and how to add details to the code. I did not observe any limitations, in terms of what was needed to be on the plot, but I would still default to using "ggplot" because that is my comfort zone.
 
-## Excel
+## Microsoft Excel
 
 <img width="2800" height="1883" alt="penglings_excel" src="https://github.com/user-attachments/assets/6d405cf5-061b-437f-b9da-37aea7fd1f2a" />
 <br>
