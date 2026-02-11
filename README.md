@@ -38,15 +38,21 @@ Excel was another tool that I found very easy to use due to years of experience.
 <img width="622" height="583" alt="penglings_datawrapper_2" src="https://github.com/user-attachments/assets/29c6be77-2bbe-422f-9051-7b74f5aa02f2" />
 <br>
 <br>
-This was my first time using "DataWrapper" and I found it fairly easy to use. There were some limitations, such as the locations of the axis labels, and you were restricted to the options on the interface, but I appreciated how easy it was to "tell" the tool, for instance, that "bill length" was the size column and that you could view how the plot looks in "dark mode" in case changes needed to be made.
+This was my first time using "DataWrapper" and I found it fairly easy to use. There were some limitations, such as the locations of the axis labels, and you were restricted to the options on the interface without the possibility of customization, but I appreciated how easy it was to "tell" the tool, for instance, that "bill length" was the size column. I liked how it had features to allow you to view the plot in "dark mode" and make changes the colors to provide access to those who are colorblind. However, since I am a huge fan of playing around with color palettes, I'm not likely to use this tool again. The colors could only be changed individually, instead of selecting a palette, like those available in "ggplot."
 
 ## Tableau
 
 <img width="1460" height="846" alt="penglings_tableau" src="https://github.com/user-attachments/assets/43aebc1c-6f8a-4e52-8a79-3201cae57f3c" />
+<br>
+<br>
+This was my first time using "Tableau," although I had heard of it prior to this course. I had colleagues in industry who used it and those in financial mathematics who have used it. Similar to my experience with "DataWrapper," I found it fairly easy to use and appreciated all the available options for adding a variety of features to the plot. It had more customization options with these features, when compared to other GUI programs, such as being able to change the variation in the size of the circle radii relative to bill length. Further, I appreciated all the different color palette options, similar to those that can be found in "ggplot," "d3," and "altair." If I ever need an alternative tool for developing basic plots such as these, I would consider using "Tableau" again. 
 
 ## Flourish
 
 <img width="1461" height="823" alt="penglings_flourish" src="https://github.com/user-attachments/assets/afdb7bee-0e5b-4fb0-8fad-448d797e805f" />
+<br>
+<br>
+This was my first time using "Flourish" and I found it fairly easy to use. I had similar thoughts on it as I did above with "DataWrapper." However, while it did allow changing the circle radii relative to "bill length," it did not have an option to add a legend nor did it allow me to change the variation in size. When looking at the plot, it is difficult to distinguish between the different-sized circles due to there not being a large enough range in size. Different sized radii, relative to one of the variables, is only useful if the plot is imbedded or shared properly, where you can then hover over individual points to see the values.
 
 ---
 
