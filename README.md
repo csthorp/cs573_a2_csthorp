@@ -7,7 +7,7 @@ For Assignment 2, I created visualizations with the "penglings" data set using g
 <img width="1641" height="1216" alt="penglings_ggplot" src="https://github.com/user-attachments/assets/a3ee0d11-457a-4398-b579-234952286764" />
 <br>
 <br>
-Using "ggplot" to make this plot was the default tool for me and I used the above plot as a reference when I made the other visualizations. I use *R* regularly and teach my students in introductory statistics how to use *R*, including how to make basic plots with the "ggplot2" library. Since I have years of experience with using *R*, I found making this plot easy to do and had existing code I could use as a template for making this plot. One of the reasons I teach this library to my students, rather than just have them use the default plotting tools in R (e.g., "plot" and "hist") is because I like the logic of "ggplot" syntax being in one block of code, with the first line calling the data and laying out what variables within the data you are plotting, then "building" the plot with the corresponding lines.
+Using "ggplot" to make this plot was the default tool for me and I used the above plot as a reference when I made the other visualizations. I use *R* regularly and teach my students in introductory statistics how to use *R*, including how to make basic plots with the "ggplot2" library. Since I have years of experience using *R*, I found making this plot very easyand had existing code I could use as a template. One of the reasons I encourage my students to learn how to use "ggplot," rather than just use the default plotting functions in *R* (e.g., "plot" and "hist") is because I like the "ggplot" syntax being in one block of code, with the first line calling the data and laying out what variables within the data you are plotting, then "building" the plot with the corresponding lines. Once you learn the basics of "ggplot," it is easy to build on that knowledge and make more complex plots without significantly changing the base code.
 
 ## d3
 
@@ -15,7 +15,8 @@ Using "ggplot" to make this plot was the default tool for me and I used the abov
 <br>
 <br>
 This one was a doozy... To make such a basic plot using "d3" required much *much* more code than I used in "ggplot." Needing to create variables for every aspect of the plot (e.g., axes) did not make me interested in using this tool again to make this type of plot. Perhaps there is a use for this tool when making visualizations, but, having used "ggplot" for years, I do not see how "d3" could be a *better* option than *R* for basic plotting. While I did not explore all the possible options with "d3," there may be more flexibility than "ggplot," but I would only consider using this tool if I had to make a complex visualization that requires features not available in "ggplot" or "altair."
-
+<br>
+<br>
 Or did I not use "d3" as effectively as I could have?
 
 ## altair
