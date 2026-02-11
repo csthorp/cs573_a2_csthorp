@@ -35,10 +35,10 @@ Excel was another tool that I found very easy to use due to years of experience.
 
 ## DataWrapper
 
-<img width="622" height="708" alt="penglings_datawrapper" src="https://github.com/user-attachments/assets/01b2a375-dea1-4101-b249-0437bb529aa1" />
+<img width="622" height="583" alt="penglings_datawrapper_2" src="https://github.com/user-attachments/assets/29c6be77-2bbe-422f-9051-7b74f5aa02f2" />
 <br>
 <br>
-This was my first time using "DataWrapper" and I found it fairly easy to use. There were some limitations, such as the locations of the axis labels, and you were restricted to the options on the interface, but I appreciated how easy it was to "tell" the tool, for instance, that "bill length" was the size column.
+This was my first time using "DataWrapper" and I found it fairly easy to use. There were some limitations, such as the locations of the axis labels, and you were restricted to the options on the interface, but I appreciated how easy it was to "tell" the tool, for instance, that "bill length" was the size column and that you could view how the plot looks in "dark mode" in case changes needed to be made.
 
 ## Tableau
 
