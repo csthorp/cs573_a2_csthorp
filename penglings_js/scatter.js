@@ -36,6 +36,16 @@ const dataset = data.map(d => ({ // convert data to numeric values (as needed)
     Number.isFinite(d.bill_length_mm)
   );
 
+  const tooltip = d3.select("body")
+      .append("div")
+      .style("position", "absolute")     // allows free placement
+      .style("background", "white")      // tooltip background color
+      .style("border", "1px solid #ccc") // light border
+      .style("padding", "6px")           // spacing inside box
+      .style("border-radius", "4px")     // rounded corners
+      .style("pointer-events", "none")   // prevents flickering issues
+      .style("opacity", 0);              // hidden by default
+
   const x_scale = d3.scaleLinear() // set the domain to start at 170 to give some padding on the left side
         .domain([170, d3.max(clean, d => d.flipper_length_mm)])
         .nice()
@@ -100,13 +110,26 @@ rows.append("text") // add text labels for each size legend value
     .attr("r",  d => r_scale(d.bill_length_mm))
     .attr("fill", d => color(d.species))
     .attr("opacity", 0.75)
-    .on("mouseover", function () {
-      d3.select(this)
-        .attr("fill", "orange");
+    .on("mouseover", function (event, d) {
+      d3.select(this).attr("fill", "orange"); // "this" refers to the actual SVG circle being hovered
+      tooltip
+        .style("opacity", 1) // make tooltip visible
+        .html(`
+          Species: ${d.species}<br>
+          Flipper: ${d.flipper_length_mm} mm<br>
+          Mass: ${d.body_mass_g} g<br>
+          Bill: ${d.bill_length_mm} mm
+        `); // insert html into tooltip
+            // using template strings for injecting data values
     })
-    .on("mouseout", function (event, d) {
-      d3.select(this)
-        .attr("fill", color(d.species));
+    .on("mousemove", function (event) { // fires continuously while the mouse moves
+      tooltip
+        .style("left", (event.pageX + 10) + "px")
+        .style("top", (event.pageY + 10) + "px");
+    })
+    .on("mouseout", function (event, d) { // restores original style and color when mouse leaves circle
+      d3.select(this).attr("fill", color(d.species));
+      tooltip.style("opacity", 0);
     });
 
   const x_axis = d3.axisBottom(x_scale) // set the number of ticks to 6 for better readability
