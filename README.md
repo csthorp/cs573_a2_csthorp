@@ -58,14 +58,18 @@ This was my first time using "Flourish" and I found it fairly easy to use. I had
 # Technical Achievements
 
 For this assignment, the key technical achievements are as follows:
-* Added an interactive element to the plot in Python using the "chart.interactive()" option in altair
-* Added more size options for the "bill length" legend in R using "ggplot()+scale_size()"
+* Added an interactive element to the plot in Python using the "chart.interactive()" option in altair. This allows the user to mouseover each point and receive information about the data associated with it.
+* Added more size options for the "bill length" legend in R using "ggplot()+scale_size()".
+* Added an interactive element to the plot in JavaScript using the ".on("mouse_")" options, shown in the screenshot below. Unlike with using the default command in Python, which did not allow editing of what was said/done when hovering over a point, in JavaScript, I was able to customize what attributes to be viewed when hovering over the point and changing the color of the point to indicate which one is being hovered over.
+
+<img width="798" height="598" alt="penglings_d3_hover" src="penglings_js/penglings_d3_hover.png" />
+
 
 ---
 
 # Design Achievements
 
 For this assignment, the key design achievements are as follows:
-* Utilized color palettes, such as the brewer palettes, to create color schemes that were easy to read and differentiated between species types
-* Able to change the circle shapes based on "bill length" for all 7 types of plots, although was not able to add a legend for every plot
-* Fiddled around the opacity options for each type of visualization to create plots that visualized clear overlap
+* Utilized color palettes, such as the brewer palettes, to create color schemes that were easy to read and differentiated between species types.
+* Able to change the circle shapes based on "bill length" for all 7 types of plots, although was not able to add a legend for every plot.
+* Fiddled around the opacity options for each type of visualization to create plots that visualized clear overlap.
