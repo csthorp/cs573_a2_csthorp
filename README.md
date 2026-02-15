@@ -27,12 +27,18 @@ Or did I not use "d3" as effectively as I could have?
 <br>
 Like "ggplot," I like the syntax of the "chart" function using one block of code. Further, I have some experience using Python, so I found this tool moderately easy to use. I had not before used "altair," but my prior knowledge with helped with understanding the syntax and how to add details to the code. I did not observe any limitations, in terms of what was needed to be on the plot, but I would still default to using "ggplot" because that is my comfort zone.
 
-## Microsoft Excel
+## Microsoft Excel - Scatter and Bubble
 
 <img width="2800" height="1883" alt="penglings_excel" src="https://github.com/user-attachments/assets/6d405cf5-061b-437f-b9da-37aea7fd1f2a" />
 <br>
 <br>
-Excel was another tool that I found very easy to use due to years of experience. However, it does have limitations, like how I could not change the circle radii relative to "bill length." The size of the points could only be changed uniformly. Further, to distinguish point colors by "species," there is no option to "tell" the plot to color the points based on a categorical variable. Instead, you have to rearrange the data and create cells with "#N/A" for when a particular species was not related to the y-values for the highlighted x-values. While Excel did create a nice-looking plot, I typically use Excel for its spreadsheet capabilities, such as keeping track of student grades or formulating data sets to share with my students, and will continue to use Excel for those purposes.
+Excel was another tool that I found very easy to use due to years of experience. However, it does have limitations, like how I could not change the circle radii relative to "bill length" in the base scatterplot option. The size of the points could only be changed uniformly. Further, to distinguish point colors by "species," there is no option to "tell" the plot to color the points based on a categorical variable. Instead, you have to rearrange the data and create cells with "#N/A" for when a particular species was not related to the y-values for the highlighted x-values. While Excel did create a nice-looking plot, I typically use Excel for its spreadsheet capabilities, such as keeping track of student grades or formulating data sets to share with my students, and will continue to use Excel for those purposes.
+<br>
+<br>
+<img width="843" height="520" alt="penguins_excel_bubble_size" src="https://github.com/user-attachments/assets/f1ffa59c-7758-48e5-ac47-4f50668bd179" />
+<br>
+<br>
+After further attempts, I determined the bubble scatterplot allows the ability to change the radii of the circles based on an additional variable. However, it cannot generate a legend to indicate which sizes relate to which bill lengths, although if you hover over the points in Excel, you can see which points correspond to which bill lengths. Further, you are able to distinguish the varying sizes, but if you want a legend, you need to manually create it yourself with circle shapes. I discovered this feature does not work well on a Mac, since it is a Microsoft software, so after multiple attempts of the circles freezing on my graph and being unable to move them to where I wanted to generate a legend, I decided to forgo future attempts.
 
 ## DataWrapper
 
