@@ -91,7 +91,7 @@ rows.append("text") // add text labels for each size legend value
     .domain(species)
     .range(d3.schemePaired); // play around with different color schemes
 
-  g.selectAll("circle") // create circles for each data point
+  g.selectAll("circle")
     .data(clean)
     .enter()
     .append("circle")
@@ -99,7 +99,15 @@ rows.append("text") // add text labels for each size legend value
     .attr("cy", d => y_scale(d.body_mass_g))
     .attr("r",  d => r_scale(d.bill_length_mm))
     .attr("fill", d => color(d.species))
-    .attr("opacity", 0.75); // add opacity to make overlapping points more visible
+    .attr("opacity", 0.75)
+    .on("mouseover", function () {
+      d3.select(this)
+        .attr("fill", "orange");
+    })
+    .on("mouseout", function (event, d) {
+      d3.select(this)
+        .attr("fill", color(d.species));
+    });
 
   const x_axis = d3.axisBottom(x_scale) // set the number of ticks to 6 for better readability
         .ticks(6);
