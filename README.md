@@ -57,6 +57,15 @@ This was my first time using "Flourish" and I found it fairly easy to use. I had
 
 # Technical Achievements
 
+For this assignment, the key technical achievements are as follows:
+* Added an interactive element to the plot in Python using the "chart.interactive()" option in altair
+* Added more size options for the "bill length" legend in R using "ggplot()+scale_size()"
+
 ---
 
 # Design Achievements
+
+For this assignment, the key design achievements are as follows:
+* Utilized color palettes, such as the brewer palettes, to create color schemes that were easy to read and differentiated between species types
+* Able to change the circle shapes based on "bill length" for all 7 types of plots, although was not able to add a legend for every plot
+* Fiddled around the opacity options for each type of visualization to create plots that visualized clear overlap
