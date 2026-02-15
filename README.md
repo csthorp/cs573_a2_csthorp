@@ -19,7 +19,7 @@ This one was a doozy... To make such a basic plot using "d3" required much *much
 Or did I not use "d3" as effectively as I could have?
 <br>
 <br>
-For the initial code used, I started with the example code from "Interactive Data Visualization for the Web" by Scott Murray.
+For the initial code used, I sourced example code from "Interactive Data Visualization for the Web" by Scott Murray.
 
 ## altair & Python
 
@@ -28,7 +28,7 @@ For the initial code used, I started with the example code from "Interactive Dat
 Like "ggplot," I like the syntax of the "chart" function using one block of code. Further, I have some experience using Python, so I found this tool moderately easy to use. I had not before used "altair," but my prior knowledge with helped with understanding the syntax and how to add details to the code. I did not observe any limitations, in terms of what was needed to be on the plot, but I would still default to using "ggplot" because that is my comfort zone.
 <br>
 <br>
-For the initial code used, I started with example code found on the [Vega-Altair site](https://altair-viz.github.io/gallery/scatter_tooltips.html).
+For the initial code used, I source example code from the [Vega-Altair site](https://altair-viz.github.io/gallery/scatter_tooltips.html).
 
 ## Microsoft Excel - Scatter and Bubble
 
